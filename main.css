@@ -1,0 +1,84 @@
+body {
+	background-color: dodgerblue;
+	box-sizing: border-box;
+}
+
+main {
+	font-family: 'roboto', sans-serif;
+}
+
+.logo {
+	margin-top: 50px;
+	height: 35px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 35px
+}
+
+form {
+	width: 400px;
+	box-sizing: border-box;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 40px;
+	border-radius: 3px;
+	background-color: white;
+}
+
+fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+fieldset h1 {
+	text-align: center;
+	margin: 0 0 40px;
+}
+
+
+
+fieldset input {
+	display: block;
+	width: 320px;
+	height: 55px;
+	padding: 15px;
+	border: 2px solid lightgrey;
+	margin-top: 20px;
+	margin-bottom: 21px;
+	font-size: 18px;
+	border-radius: 3px;
+}
+
+fieldset button {
+	display: block;
+	width: 320px;
+	height: 55px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	background-color: mediumseagreen;
+	color: white;
+	text-decoration: bold;
+	border: none;
+	box-shadow: none;
+	border-radius: 3px;
+}
+
+fieldset button:hover {
+	background-color: darkseagreen;
+}
+
+fieldset a{
+	text-decoration: underline;
+	text-align: center;
+	display: block;
+	margin: auto;
+	color: grey;
+}
+
+main> p,a {
+	color: white;
+	text-align: center;
+}
